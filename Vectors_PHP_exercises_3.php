@@ -35,33 +35,30 @@ echo "<br>";
       }
 
 /*3.Vector:Alarma*/
-   $Alarma['hores']=array("8","12","14","16","20");
+   $Alarma=array("8","12","14","16","20");
 
    echo "</br>";
    echo "3.Vector:Alarma";
    echo "</br>";
 
-      foreach ($Alarma as $value_1){
-      foreach ($value_1 as $value_2){
+      foreach ($Alarma as $value_2){
       echo "$value_2</br>";
           }
-          }
           echo "Nombre d'elements:";
-          echo  sizeof($value_1);
+          echo  sizeof($Alarma);
           echo "<br>";
 
   /*4.Vector:LLista de components*/
-      $Components['llistat_Comp']=array("PC","Ratolí","Teclat","I3 core","8 GB de RAM","1 TB");
+      $Components=array("PC","Ratolí","Teclat","I3 core","8 GB de RAM","1 TB");
 
         echo "</br>";
         echo "4.Vector: LLista de components";
         echo "</br>";
 
-          foreach ($Components as $value_1){
-          foreach ($value_1 as $value_2){
+          foreach ($Components as $value_2){
               echo "$value_2</br>";
                   }
-                  }
+
                     echo "Nombre d'elements:";
-                    echo  sizeof($value_1);
+                    echo  sizeof($Components);
 ?>
