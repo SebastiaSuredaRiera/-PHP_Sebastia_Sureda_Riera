@@ -1,5 +1,5 @@
 <?php
-
+//visusi corrections - OK
   $FoodMenu['Breakfast']=array('Milk', 'coffee', 'toast', 'oats');
   $FoodMenu['Lunch']=array('spanish omelet', 'spaguetti', 'beans', 'bacon');
   $FoodMenu['Dinner']=array('soup', 'cheese', 'fruit', 'yogurt');
