@@ -1,4 +1,5 @@
 <?php
+//visusi corrections- OK
     /*foreach ($_POST['navegadors'] as $opcio)
                 echo $opcio . "\n";*/
 
