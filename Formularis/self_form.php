@@ -1,4 +1,5 @@
 <?php
+//visusi corrections - OK
 $genero = "$_GET[genero]";
 $Termes = "$_GET[Termes]";
 $PWD = "$_GET[PWD]";
