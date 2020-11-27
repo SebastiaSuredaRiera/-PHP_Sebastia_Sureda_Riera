@@ -1,5 +1,5 @@
 <?php
-
+//visusi corrections - OK
 function fullNameSplit($fullName){
   //use explode PHP function
   //return an array containing the $fullName param split by the space character
