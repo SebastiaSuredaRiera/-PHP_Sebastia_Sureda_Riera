@@ -1,14 +1,14 @@
-<?php
+<?php  
+//visusi - corrections  OK
 /*1.Associative array:January months days*/
 echo "<br>1.Associative array: January months days";
 echo "<br> String key: January <br>";
 
     $Vector_1['January']=array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31);
 
-
         foreach ($Vector_1 as $Value_1){
             echo "Number of Elements: ";
-          echo  sizeof($Value_1);
+          echo  sizeof($Value_1); 
           echo "<br>";
         foreach ($Value_1 as $Value_2){
             echo "$Value_2</br>";
