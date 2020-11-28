@@ -1,12 +1,12 @@
 <?php
 /* visusi corrections - KO   - A aquest exercici encara no haviem vist vectors / matrius associatives, les que empren una clau de cadena com a index de l'array
-                                           -  sustiruir la clau de cadena per la posicio*/
+-  sustiruir la clau de cadena per la posicio*/
 /*1.Vector:hora de la finestra del dia*/
-  $M_days['Mati']="Mati"; //visusi - exemple - $M_days[0]="Mati"; 
-  $M_days['Migdia']="Migdia";
-  $M_days['Tarda']="Tarda";
-  $M_days['Vespre']="Vespre";
-  $M_days['Nit']="Nit";
+  $M_days[0]="Mati"; //visusi - exemple - $M_days[0]="Mati";
+  $M_days[1]="Migdia";
+  $M_days[2]="Tarda";
+  $M_days[3]="Vespre";
+  $M_days[4]="Nit";
 
 echo "1.Vector:hora de la finestra del dia";
 echo "<br>";
@@ -20,9 +20,9 @@ echo "<br>";
     }
 
 /*2.Vector:Contingut plat dels restaurants*/
-    $Plats['1r plat']="Vadella amb salsa de bolets"; //visusi - exemple - $M_days[0]="Mati"; 
-    $Plats['2n plat']="Espagueti carbonats";
-    $Plats['3r plat']="Truita española";
+    $Plats[0]="Vadella amb salsa de bolets"; //visusi - exemple - $M_days[0]="Mati";
+    $Plats[1]="Espagueti carbonats";
+    $Plats[2]="Truita española";
 
       echo "<br>";
       echo "2.Vector:Contingut plat dels restaurants";
@@ -37,8 +37,8 @@ echo "<br>";
       }
 
 /*3.Vector:Alarma*/
-   $Alarma=array("8","12","14","16","20"); //visusi - no cal que siguen string, millor si son numeros. Exemple: array(8,12 .......
- 
+   $Alarma=array(8,12,12,16,20); //visusi - no cal que siguen string, millor si son numeros. Exemple: array(8,12 .......
+
    echo "</br>";
    echo "3.Vector:Alarma";
    echo "</br>";
