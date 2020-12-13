@@ -1,12 +1,12 @@
 <?php
-
+//viusi corrections - see comments below amd rubric in moodle
 function messageReplacement($capitalisedName,$finalPrice){
   $message="PRODUCTNAME final price is FINALPRICE €";
   //use the php function str_ireplace that return a string
   //example of use: $replacedString = str_ireplace("body", "full", "body combat");
   //where $replacedString get the value "full combat"
-
-  return  $replacedMessage = str_ireplace("FINALPRICE",$finalPrice,$message);
+  
+  return  $replacedMessage = str_ireplace("FINALPRICE",$finalPrice,$message);	 //visusi corrections - Be attentive to solution in class
 }
 
 

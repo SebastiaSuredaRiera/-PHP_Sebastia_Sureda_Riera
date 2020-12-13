@@ -1,4 +1,5 @@
 <?php
+//viusi corrections - see comments below amd rubric in moodle
 //Variables definition
 $name=$capitalisedName=$price=$discount=$discountQuantity=$finalPrice=$product=$replacedMessage=$replacedMessage2=null;
 
@@ -10,7 +11,7 @@ if ($_POST){
   //name format
   $name=$_POST['name'];
   //if the $name variable has been initialised and is not null
-  if(($name))
+  if(($name))     //visusi corrections: Falta isset
      $capitalisedName = nameToCapitalLetters($name);
   //price value
   $price=$_POST['price'];
