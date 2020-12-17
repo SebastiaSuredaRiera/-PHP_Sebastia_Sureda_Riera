@@ -1,4 +1,5 @@
 <?php
+//viusi corrections - see comments below amd rubric in moodle
 //Definició de variable i assignació de valor null
 $finalPrice=$partialPrice2=$partialPrice=$viewsPrice=$genderPrice=$typePrice=$foodServices=$views=$gender=$type=$option=null;
 
@@ -24,7 +25,7 @@ if ($_GET){
 //emmagatzemar en una variable els serveis de restauració seleccionats
   $foodServices=$_GET['foodServices'];
 
-foreach ($foodServices as $food => $service) {
+foreach ($foodServices as $food => $service) {//visusi corrections - Not needed
   // code...
 }
   //Si la variable $type ha sigut inicialitzada i no es null
@@ -52,20 +53,20 @@ foreach ($foodServices as $food => $service) {
 
   //si els preus del tipus i el genere de l'habitacio son major de 0
   //sumar-los i assignar el resultat a la variable $partialPrice
-  if (($typePrice) > 0 &&($genderPrice) > 0) {
+  if (($typePrice) > 0 &&($genderPrice) > 0) {//visusi corrections - watch out the parenthese use
     $partialPrice= $typePrice + $genderPrice;
 }
 
   //sino asignar valor 0 a $partialPrice
 
   else {
-    return $partialPrice= 0;
+    return $partialPrice= 0; //visusi corrections - watch out the return use
   }
 
 
   //si els preus de les vistes i els serveis de restauracio diferent de 0
   //sumar-los i assignar el resultat a la variable $partialPrice2
-  if(($viewsPrice) != 0 &&(!$foodServicesPrice) !=0) {
+  if(($viewsPrice) != 0 &&(!$foodServicesPrice) !=0) {//visusi corrections - watch out the parenthese and ! use
     $partialPrice2= $viewsPrice + $foodServicesPrice;
   }
   //sino asignar valor 0 a $partialPrice2

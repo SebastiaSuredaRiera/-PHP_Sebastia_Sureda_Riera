@@ -1,4 +1,5 @@
 <?php
+ //visusi corrections - Be attentive to solution in class
 //calcular el preu del tipus d'habitació i retornar un valor numeric
 //si es single el preu es 30
 //si es double el preu es 50
